@@ -1,0 +1,62 @@
+ 
+****************************************
+Report : qor
+Design : NFC
+Version: D-2010.03-SP5
+Date   : Wed Mar 21 00:56:08 2018
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:               1.00
+  Critical Path Length:          3.39
+  Critical Path Slack:           4.61
+  Critical Path Clk Period:     20.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          4
+  Hierarchical Port Count:         84
+  Leaf Cell Count:                302
+  Buf/Inv Cell Count:              72
+  CT Buf/Inv Cell Count:            0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     2388.241792
+  Noncombinational Area:  2137.026621
+  Net Area:              35280.177368
+  -----------------------------------
+  Cell Area:              4525.268413
+  Design Area:           39805.445781
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           363
+  Nets With Violations:             1
+  Max Trans Violations:             1
+  -----------------------------------
+
+
+  Hostname: ideal125
+
+  Compile CPU Statistics
+  -----------------------------------
+  Resource Sharing:              0.03
+  Logic Optimization:            0.01
+  Mapping Optimization:          0.67
+  -----------------------------------
+  Overall Compile Time:          3.06
+
+1

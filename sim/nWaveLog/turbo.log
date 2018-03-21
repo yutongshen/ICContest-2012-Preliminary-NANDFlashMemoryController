@@ -1,0 +1,4 @@
+Command Line: /home/nfs_cad/synopsys/verdi/cur/platform/LINUXAMD64/bin/Novas
+uname(Linux ideal125 2.6.32-431.el6.x86_64 #1 SMP Fri Nov 22 03:15:09 UTC 2013 x86_64)
+file I/O: ffrSyncFile.cpp:434, read(), errno: 9, msg: Bad file descriptor
+au time 34276.258214 1400.808045 1942.995619 delta 209391088 1626222064 total 217530856 1634361832

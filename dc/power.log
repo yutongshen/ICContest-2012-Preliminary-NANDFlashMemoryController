@@ -1,0 +1,44 @@
+Loading db file '/home/nfs_cad/lib/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : NFC
+Version: D-2010.03-SP5
+Date   : Wed Mar 21 00:56:08 2018
+****************************************
+
+
+Library(s) Used:
+
+    slow (File: /home/nfs_cad/lib/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db)
+
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+NFC                    tsmc13_wl10       slow
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  60.8168 uW   (52%)
+  Net Switching Power  =  56.5661 uW   (48%)
+                         ---------
+Total Dynamic Power    = 117.3828 uW  (100%)
+
+Cell Leakage Power     =   3.8004 uW
+
+1

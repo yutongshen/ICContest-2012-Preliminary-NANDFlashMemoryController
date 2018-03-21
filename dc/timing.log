@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : NFC
+Version: D-2010.03-SP5
+Date   : Wed Mar 21 00:56:07 2018
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: clk (clock source 'clk')
+  Endpoint: F_WEN_B (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  NFC                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (fall edge)                   10.00      10.00
+  clk (in)                                 0.68      10.68 f
+  U94/Y (OAI2BB2X4)                        2.71      13.39 r
+  F_WEN_B (out)                            0.00      13.39 r
+  data arrival time                                  13.39
+
+  clock clk (rise edge)                   20.00      20.00
+  clock network delay (ideal)              1.00      21.00
+  clock uncertainty                       -1.00      20.00
+  output external delay                   -2.00      18.00
+  data required time                                 18.00
+  -----------------------------------------------------------
+  data required time                                 18.00
+  data arrival time                                 -13.39
+  -----------------------------------------------------------
+  slack (MET)                                         4.61
+
+
+1
